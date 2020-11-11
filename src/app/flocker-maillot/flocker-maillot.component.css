@@ -1,0 +1,17 @@
+.block_player{
+    border-radius: 30px;
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.maillot{
+    position: absolute;
+}
+
+.players_maillot{
+    position: absolute;
+    margin: 150px 0px 0px 250px;
+    font-size: 2.5rem;
+    width:15%;
+    text-align: center;
+}

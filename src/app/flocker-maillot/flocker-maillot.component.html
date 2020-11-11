@@ -1,0 +1,12 @@
+<!-- nom des players -->
+<div class="block_player">
+    <select (change)="onChange($event)" >
+        <option *ngFor="let player of players" class="player_name">{{player.name}}</option>
+    </select>
+</div>
+
+<!-- Image maillot -->
+<div class="block_img">
+    <img class="maillot" src="assets/image/3.jpg" alt="">
+    <div class="players_maillot">{{afficherJoueur}}</div>
+</div>
